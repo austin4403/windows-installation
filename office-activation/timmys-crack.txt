@@ -1,0 +1,37 @@
+ _____ _                           _                           _    
+|_   _(_)_ __ ___  _ __ ___  _   _( )___    ___ _ __ __ _  ___| | __
+  | | | | '_ ` _ \| '_ ` _ \| | | |// __|  / __| '__/ _` |/ __| |/ /
+  | | | | | | | | | | | | | | |_| | \__ \ | (__| | | (_| | (__|   < 
+  |_| |_|_| |_| |_|_| |_| |_|\__, | |___/  \___|_|  \__,_|\___|_|\_\
+                             |___/                                  
+
+
+//This might be useful someday 
+
+{{office 2021}}
+running all in cmd as Admin
+
+cd /d %ProgramFiles(x86)%\Microsoft Office\Office16
+cd /d %ProgramFiles%\Microsoft Office\Office16
+
+for /f %x in ('dir /b ..\root\Licenses16\ProPlus2021VL_KMS*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x"
+
+cscript ospp.vbs /setprt:1688
+cscript ospp.vbs /unpkey:6F7TH >nul
+cscript ospp.vbs /inpkey:FXYTK-NJJ8C-GB6DW-3DYQT-6F7TH
+cscript ospp.vbs /sethst:107.175.77.7
+cscript ospp.vbs /act
+
+{{office 2021}}
+running all in cmd as Admin
+
+cd /d %ProgramFiles(x86)%\Microsoft Office\Office16
+cd /d %ProgramFiles%\Microsoft Office\Office16
+
+for /f %x in ('dir /b ..\root\Licenses16\ProPlus2021VL_KMS*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x"
+
+cscript ospp.vbs /setprt:1688
+cscript ospp.vbs /unpkey:6F7TH >nul
+cscript ospp.vbs /inpkey:NMMKJ-6RK4F-KMJVX-8D9MJ-6MWKP
+cscript ospp.vbs /sethst:107.175.77.7
+cscript ospp.vbs /act
