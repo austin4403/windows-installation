@@ -22,7 +22,7 @@ cscript ospp.vbs /inpkey:FXYTK-NJJ8C-GB6DW-3DYQT-6F7TH
 cscript ospp.vbs /sethst:107.175.77.7
 cscript ospp.vbs /act
 
-{{office 2021}}
+{{office 2019}}
 running all in cmd as Admin
 
 cd /d %ProgramFiles(x86)%\Microsoft Office\Office16
